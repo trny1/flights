@@ -1,4 +1,4 @@
-/* TODO react-app> npm i express cors react-router-dom bootstrap react-bootstrap */
+/* react-app> npm i express cors react-router-dom bootstrap react-bootstrap */
 
 /** TODO - dev team collaboration powered by Git */
 /** branch deployment promote chain: prod=main <- uat <- dev/flights <- dev/flights-firstname-lastname */
