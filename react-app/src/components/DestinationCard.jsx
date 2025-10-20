@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import { Card, Form, Row, Col } from "react-bootstrap"
 
-export default function DestinationCard({ city }) {
+export default function DestinationCard(props) {
+    let city = { image: '', name: '', country: '' }
+    if (props.city) city = props.city
+    
     return (
         <>
             <Card className="mb-3 shadow-sm">
